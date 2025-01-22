@@ -1,3 +1,23 @@
+:root {
+  --grey-700: #333;
+  --grey-800: #1f1f1f;
+  --grey-900: #141414;
+  --green: #c4f82a;
+  --white: #fff;
+}
+
 body {
-  background: pink;
+  color: var(--white);
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+}
+
+.page {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: var(--grey-900);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
