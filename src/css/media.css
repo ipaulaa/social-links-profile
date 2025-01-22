@@ -1,0 +1,11 @@
+@media screen and (min-width: 600px) {
+  body {
+    background: lemonchiffon;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    background: skyblue;
+  }
+}
